@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Din;
+  src: url(/static/fonts/DIN\ Black.ttf);
+}
+body, html {
+  color: black;
+  background-color: aqua;
+  height: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: Din;
+}
+
+p {
+  text-align: center;
+  font-family: Din;
+}
+
+form {
+  font-family: Din;
+}
+
+button {
+  background-color: transparent;
+  font-family: Din;
+  border-color: white;
+  color: rgb(19, 99, 17);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.img {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <h2> Console Dictionary</h2>
+    <form method="POST" action="/">
+        <label for="textArea">Search your Word:</label>
+        <textarea id="textArea" name="userText" rows="1" cols="40" placeholder="Type your text here"></textarea>
+        <button type="submit" class="button">Search</button>
+    </form>
+    <hr>
+    <h2 class="Main Word">{{Word}}</h2>
+    <p>{{content}}</p>
+    <div class="container">
+        <img src="/static/images/mercedes.png" width="200" alt="">
+    </div>
+    
+</body>
+</html>
